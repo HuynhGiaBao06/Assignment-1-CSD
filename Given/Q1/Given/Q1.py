@@ -153,7 +153,7 @@ class PlaylistCLL:
                     self.tail = None
                 else:
 
-                    prev.next == self.tail
+                    prev.next == current.next
                     
                     if current == self.tail:
                         self.tail = prev
